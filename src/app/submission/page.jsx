@@ -10,13 +10,13 @@ export default function Submission() {
             </div>
 
             {/* Flex container updated for responsiveness */}
-            <div className="w-full flex flex-col md:flex-row justify-around items-center gap-8 mt-8">
+            <div className="w-full flex flex-row justify-around items-center gap-8 mt-8">
                 <ProjectLink />
-                <ProjectDescription />
+                
             </div>
 
             {/* Submit button positioned with responsive adjustments */}
-            <button className="mt-12 sm:mt-4 lg:mt-0 bg-[#F5ED02] border-2 border-black p-3 text-3xl font-pixeboy md:absolute md:left-[45vw] md:bottom-[10vh] sm:bottom-[5vh]">
+            <button className="mt-12 sm:mt-4 lg:mt-0 bg-[#F5ED02] border-2 border-black p-3 text-3xl font-pixeboy md:absolute md:left-[45vw] md:bottom-[25vh] sm:bottom-[5vh]">
                 Submit
             </button>
         </div>
